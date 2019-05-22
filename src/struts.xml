@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+<!-- name :必填，指包的名字，被其他包引用的key
+	namespace：可选属性，定义包的命名空间
+			默认名称空间： nemaspace=“”
+			跟名称空间：namespace="/"
+			带名称的名称空间：namespace=“/demo1”
+	extends：继承其他包可选属性
+	abstract：可选，是否是抽像包
+ -->
+	<package name="hello" extends="struts-default" namespace="/">
+	
+	<!-- name=Action处理请求的URL
+		 class：Action对应的Action类	
+	 -->
+		<action name="hello" class="com.mhys.struts.demo01.HellAction">
+			<result name="success">success.jsp</result>
+		</action>
+	</package>
+	<include file="com/mhys/demo2/strutsdemo2.xml"></include>
+</struts>
