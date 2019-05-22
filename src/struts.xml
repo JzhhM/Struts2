@@ -12,6 +12,8 @@
 	extends：继承其他包可选属性
 	abstract：可选，是否是抽像包
  -->
+ <!-- 开启动态方法访问 -->
+ 	<constant name="struts.enable.DynamicMethodInvocation" value="true"></constant>
 	<package name="hello" extends="struts-default" namespace="/">
 	
 	<!-- name=Action处理请求的URL

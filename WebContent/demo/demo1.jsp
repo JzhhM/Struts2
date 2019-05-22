@@ -19,5 +19,12 @@
 <a href="${pageContext.request.contextPath}/product_update.action">修改商品</a>
 <a href="${pageContext.request.contextPath}/product_delete.action">删除商品</a>
 <a href="${pageContext.request.contextPath}/product_save.action">保存商品</a>
+
+
+<h3>通过动态方法访问</h3>
+<a href="${pageContext.request.contextPath}/customer!find.action">查询商品</a>
+<a href="${pageContext.request.contextPath}/customer!update.action">修改商品</a>
+<a href="${pageContext.request.contextPath}/customer!delete.action">删除商品</a>
+<a href="${pageContext.request.contextPath}/customer!save.action">保存商品</a>
 </body>
 </html>

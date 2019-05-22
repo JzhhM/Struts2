@@ -13,5 +13,7 @@
 		
 		<!-- 通配符方式 -->
 		<action name="product_*" class="com.mhys.demo3.productAction" method="{1}"></action>
+		<!-- 动态方法访问 -->
+		<action name="customer" class="com.mhys.demo3.CustomerAction"></action>
 	</package>
 </struts>
