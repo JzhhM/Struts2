@@ -10,7 +10,7 @@
 		<action name="userDlete" class="com.mhys.demo3.UserAction" method="delete"></action>
 		<action name="userSave" class="com.mhys.demo3.UserAction" method="save"></action>
 		
-		<action name="asdasd"></action>
+		
 		<!-- 通配符方式 -->
 		<action name="product_*" class="com.mhys.demo3.productAction" method="{1}"></action>
 	</package>
