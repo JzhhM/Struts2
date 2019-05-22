@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC
+	"-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+	"http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+	<package name="demo3" extends="struts-default" namespace="/">
+		<action name="userFind" class="com.mhys.demo3.UserAction" method="find"></action>
+		<action name="userUpdate" class="com.mhys.demo3.UserAction" method="update"></action>
+		<action name="userDlete" class="com.mhys.demo3.UserAction" method="delete"></action>
+		<action name="userSave" class="com.mhys.demo3.UserAction" method="save"></action>
+		
+		
+		<!-- 通配符方式 -->
+		<action name="product_*" class="com.mhys.demo3.productAction" method="{1}"></action>
+	</package>
+</struts>

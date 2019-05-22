@@ -22,4 +22,5 @@
 		</action>
 	</package>
 	<include file="com/mhys/demo2/strutsdemo2.xml"></include>
+	<include file="com/mhys/demo3/strutsdemo3.xml"></include>
 </struts>
